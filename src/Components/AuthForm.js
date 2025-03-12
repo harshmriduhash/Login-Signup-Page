@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const AuthForm = () => {
     const [isLogin, setLogin] = useState(true)
-    const [show, setShow] = useState(false)      //for password showhidepassword
+    const [show, setShow] = useState(false)   //for password showhidepassword
     const [data, setData] = useState(undefined)
 
     const options = [
@@ -57,6 +57,7 @@ const AuthForm = () => {
                 </div>
               
                 
+                // eslint-disable-next-line jsx-a11y/anchor-has-content
                 <button>Submit <a href=''></a></button>
             </div>
             </>}
