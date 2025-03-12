@@ -31,7 +31,7 @@ const AuthForm = () => {
                 <input type='Password' placeholder='Password'></input>
                 <a href='#'>Forget Password?</a>
                 <button>Login</button>
-                <p>Not a Member ? <a href='#' onClick={()=>setLogin(false)}>Signup now</a></p>
+                <p>Not a Member? <a href='#' onClick={()=>setLogin(false)}>Signup now</a></p>
             </div>
             </> : <>
             <div className='form'>
